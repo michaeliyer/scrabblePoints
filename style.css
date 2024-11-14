@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.letter-box {
+    display: inline-block;
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    animation: rollIn 0.5s ease;
+}
+
+.letter {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.value {
+    font-size: 16px;
+    color: gray;
+}
+
+@keyframes rollIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
