@@ -1,8 +1,16 @@
+h1 { 
+    display: inline-block;
+    font-family: "Neucha", cursive;
+    border: solid powderblue 5px;
+    border-radius: 8px;
+    padding: 3px;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: dodgerblue;
-    color: orange;
+    background-color: rgb(217, 126, 15);
+    color: rgb(17, 0, 255);
 }
 
 #output {
@@ -27,7 +35,7 @@ body {
 
 .value {
     font-size: 24px;
-    color: red;
+    color: rgb(50, 89, 17);
 }
 
 @keyframes rollIn {
