@@ -9,8 +9,8 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: rgb(217, 126, 15);
-    color: rgb(17, 0, 255);
+    background-color: rgb(97, 20, 13);
+    color: rgb(113, 109, 172);
 }
 
 #output {
@@ -18,6 +18,15 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
+}
+
+#output2 {
+    font-size: 20px;
+    color: rgb(224, 161, 14);
+    margin-top: 20px;
+    font-family: "Neucha", cursive;
+    opacity: 0;
+    transition: opacity 1s ease;
 }
 
 .letter-box {
