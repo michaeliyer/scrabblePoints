@@ -50,7 +50,7 @@ function calculateScore() {
         totalScoreEl.innerText = `Total Scrabble Score: ${totalScore}`;
 
         // Conditional message based on total score
-        if (totalScore < 5) {
+        if (totalScore <= 5) {
             scoreMessageEl.innerText = "That's a terrible score.";
         } else if (totalScore >= 6 && totalScore <= 8) {
             scoreMessageEl.innerText = "OK, better than that 5 point crap.";
@@ -58,8 +58,10 @@ function calculateScore() {
             scoreMessageEl.innerText = "Ok, you're effing dangerous.";
         } else if (totalScore > 11 && totalScore <= 15) {
             scoreMessageEl.innerText = "Good luck finding an opponent.";
-        } else if (totalScore > 15) {
+        } else if (totalScore > 15 && totalScore <= 20) {
             scoreMessageEl.innerText = "You're about to be reported for cheating!";
+        } else if (totalScore > 21) {
+            scoreMessageEl.innerText = "You've got big old balls coming around here with that shit!!"
         }
 
         // Add fade-in effect for the score message
