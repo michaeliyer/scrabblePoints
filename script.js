@@ -55,13 +55,20 @@ function calculateScore() {
         } else if (totalScore >= 6 && totalScore <= 8) {
             scoreMessageEl.innerText = "OK, better than that 5 point crap.";
         } else if (totalScore > 8 && totalScore <= 10) {
-            scoreMessageEl.innerText = "Ok, you're effing dangerous.";
-        } else if (totalScore > 11 && totalScore <= 15) {
-            scoreMessageEl.innerText = "Good luck finding an opponent.";
+            scoreMessageEl.innerText = "Ok, you're effing dangerous. Just kidding. Still weak.";
+        } else if (totalScore >= 11 && totalScore <= 15) {
+            scoreMessageEl.innerText = "Okay! You're playing a little scrabble now.";
         } else if (totalScore > 15 && totalScore <= 20) {
-            scoreMessageEl.innerText = "You're about to be reported for cheating!";
-        } else if (totalScore > 21) {
-            scoreMessageEl.innerText = "You've got big old balls coming around here with that shit!!"
+            scoreMessageEl.innerText = "Now you're starting to push it. Are you stashing tiles?";
+        } else if (totalScore >= 21 && totalScore <= 25) {
+            scoreMessageEl.innerText = "You've got big old balls coming around here with that shit. Don't think dropping Q's and Z's and J's goes unnoticed..."
+        }
+          else if (totalScore > 25 && totalScore <=30) {
+            scoreMessageEl.innerText = "Maybe someone needs to teach you a little lesson, essay! Maybe we don't deal too well with cheaters around here. You were warned and now it's too late!!"
+        } else if  (totalScore > 30 && totalScore <=35 ) {
+            scoreMessageEl.innerText = "You're dead to me, fuckface. You're ruined around here!!"
+        } else if (totalScore > 35) {
+            scoreMessageEl.innerText = "Get fucked. This is you being ghosted."
         }
 
         // Add fade-in effect for the score message
