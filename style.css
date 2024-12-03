@@ -1,7 +1,7 @@
 h1 { 
     display: inline-block;
     font-family: "Neucha", cursive;
-    border: solid powderblue 5px;
+    border: solid rgb(12, 111, 124) 5px;
     border-radius: 8px;
     padding: 3px;
 }
@@ -22,7 +22,7 @@ body {
 
 #output2 {
     font-size: 20px;
-    color: rgb(224, 161, 14);
+    color: rgb(70, 14, 224);
     margin-top: 20px;
     font-family: "Neucha", cursive;
     opacity: 0;
@@ -56,4 +56,14 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+input {
+    color: rgb(9, 74, 98);
+    background-color: rgb(90, 156, 156);
+}
+
+button {
+    color: rgb(9, 74, 98);
+    background-color: rgb(90, 156, 156);
 }

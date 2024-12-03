@@ -68,7 +68,7 @@ function calculateScore() {
         } else if  (totalScore > 30 && totalScore <=35 ) {
             scoreMessageEl.innerText = "You're dead to me, fuckface. You're ruined around here!!"
         } else if (totalScore > 35) {
-            scoreMessageEl.innerText = "Get fucked. This is you being ghosted."
+            scoreMessageEl.innerText = "Get fucked. This is you being ghosted. You are totally unloved."
         }
 
         // Add fade-in effect for the score message
